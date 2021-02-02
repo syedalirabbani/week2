@@ -40,7 +40,7 @@ var ispenat = false;
 // OR logic either one need to be true for it to be true (||)
 
 var rehat = ishungry && ispenat ;
-console.log(rehat);
+console.log("rehat");
 
 //two control flow
 // 1) if else
@@ -135,6 +135,9 @@ for (var i = 1; i < lines; i++){
   console.log(i+" x " + multiplier + " = " + multiplier*i);
 }
 
+//---------------------------------------------------------------------------------
+//fizz for divisable by 3, buzz for divisable by 5, fizzbuzz for divisable by 3 & 5
+//---------------------------------------------------------------------------------
 for (var i = 1; i<101; i++){
   if( i % 3 ==0){
     console.log("Fizz")
@@ -142,7 +145,7 @@ for (var i = 1; i<101; i++){
   else if( i % 5 == 0){
     console.log("Buzz")
   }
-  else if( i % 3 == 0 && i % 5 == 0){
+  else if( i % 3 == 0 && i % 5 == 0 ){
     console.log("FizzBuzz")
   }
   else{
